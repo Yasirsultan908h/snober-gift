@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Intentional</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- PAGE 1 -->
+    <section class="page active">
+      <p class="text">
+        This isn’t a message.<br>
+        It’s something intentional.
+      </p>
+      <button onclick="nextPage()">👉 Continue</button>
+    </section>
+
+    <!-- PAGE 2 -->
+    <section class="page">
+      <p class="text">
+        In a world of instant replies,<br>
+        I chose clarity over speed.
+      </p>
+      <button onclick="nextPage()">👉 Why?</button>
+    </section>
+
+    <!-- PAGE 3 -->
+    <section class="page">
+      <p class="text">
+        Most people rush to define things.<br>
+        I prefer understanding first.
+      </p>
+      <button onclick="nextPage()">👉 Go on</button>
+    </section>
+
+    <!-- PAGE 4 -->
+    <section class="page">
+      <p class="text">
+        Talking to you felt calm.<br>
+        Not loud.<br>
+        Not confusing.<br>
+        Just aligned.
+      </p>
+      <button onclick="nextPage()">👉 One last thing</button>
+    </section>
+
+    <!-- PAGE 5 -->
+    <section class="page">
+      <p class="text">
+        If this were an algorithm,<br>
+        I wouldn’t force an outcome.<br>
+        I’d wait for a genuine signal.
+      </p>
+
+      <div class="buttons">
+        <button onclick="choice('continue')">I’d like to continue</button>
+        <button class="secondary" onclick="choice('time')">I need time</button>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
